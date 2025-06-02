@@ -84,7 +84,7 @@ dotnet run
 Após rodar o projeto, abra no navegador:
 
 ```
-https://localhost:5001/swagger
+https://localhost:5000/swagger
 ```
 
 Você verá a interface do Swagger UI listando todos os endpoints disponíveis.
