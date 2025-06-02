@@ -1,0 +1,21 @@
+@model IEnumerable<ColdConnectNET.API.Models.Abrigo>
+
+<h2>Abrigos Registrados</h2>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Endereço</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var abrigo in Model)
+        {
+            <tr>
+                <td>@abrigo.Nome</td>
+                <td>@abrigo.Endereco</td>
+            </tr>
+        }
+    </tbody>
+</table>
