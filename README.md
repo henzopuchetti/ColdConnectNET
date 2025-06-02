@@ -1,7 +1,5 @@
 # ColdConnectNET
 
-![ColdConnectNET Banner](https://via.placeholder.com/800x150?text=ColdConnectNET+-+Gest%C3%A3o+de+Abrigos+e+Ocorr%C3%AAncias)
-
 ## 🧑🧑 Integrantes
 
 Henzo Boschiero Puchetti - Rm555179
