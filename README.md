@@ -43,6 +43,29 @@ Este projeto visa auxiliar organizações e equipes que lidam com abrigos e prec
 
 ---
 
+## 📐 Diagrama de Entidades
+
+```mermaid
+classDiagram
+    class Abrigo {
+        +int Id
+        +string Nome
+        +string Endereco
+        +int Capacidade
+        +List~Ocorrencia~ Ocorrencias
+    }
+
+    class Ocorrencia {
+        +int Id
+        +string Tipo
+        +DateTime Data
+        +int AbrigoId
+        +Abrigo Abrigo
+    }
+
+    Abrigo "1" --> "*" Ocorrencia : possui
+```
+
 ## ⚙️ Como Rodar o Projeto
 
 ### 1. Clonar o Repositório
