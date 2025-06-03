@@ -65,7 +65,15 @@ classDiagram
 
     Abrigo "1" --> "*" Ocorrencia : possui
 ```
+## 📈 Diagrama de Arquitetura
 
+```
+    graph TD
+    Client -->|HTTP| API[ASP.NET Core API]
+    API --> Db[Oracle Database]
+    API --> Views[MVC Views]
+
+```
 ## ⚙️ Como Rodar o Projeto
 
 ### 1. Clonar o Repositório
