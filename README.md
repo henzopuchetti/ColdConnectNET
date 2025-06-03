@@ -79,6 +79,29 @@ dotnet run
 
 ---
 
+## 📐 Diagrama de Entidades
+
+```mermaid
+classDiagram
+    class Abrigo {
+        +int Id
+        +string Nome
+        +string Endereco
+        +int Capacidade
+        +List~Ocorrencia~ Ocorrencias
+    }
+
+    class Ocorrencia {
+        +int Id
+        +string Tipo
+        +DateTime Data
+        +int AbrigoId
+        +Abrigo Abrigo
+    }
+
+    Abrigo "1" --> "*" Ocorrencia : possui
+```
+
 ## 🧭 Testando a API via Swagger
 
 Após rodar o projeto, abra no navegador:
