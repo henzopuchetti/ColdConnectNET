@@ -74,6 +74,20 @@ classDiagram
     API --> Views[MVC Views]
 
 ```
+## 🔠 Fluxograma
+```
+    flowchart TD
+    A[Início] --> B{Deseja cadastrar um novo Abrigo?}
+    B -- Sim --> C[Preencher dados do Abrigo]
+    C --> D[Salvar Abrigo no Banco]
+    B -- Não --> E{Deseja cadastrar uma Ocorrência?}
+    E -- Sim --> F[Selecionar Abrigo Existente]
+    F --> G[Preencher dados da Ocorrência]
+    G --> H[Salvar Ocorrência no Banco]
+    E -- Não --> I[Fim]
+
+```
+
 ## ⚙️ Como Rodar o Projeto
 
 ### 1. Clonar o Repositório
