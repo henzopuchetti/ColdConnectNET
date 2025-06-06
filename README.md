@@ -204,16 +204,16 @@ POST /api/ocorrencia
 Content-Type: application/json
 
 {
-  "tipo": "Incêndio",
+  "tipo": "frio extremo",
   "data": "2025-06-02T14:00:00",
   "abrigoId": 1
 }
 ```
 
-#### DELETE Ocorrência (ID = 5)
+#### DELETE Ocorrência (ID = 1)
 
 ```
-DELETE /api/ocorrencia/5
+DELETE /api/ocorrencia/1
 ```
 
 ---
@@ -259,6 +259,3 @@ Recomenda-se desenvolver testes para validar regras de negócio, endpoints e int
 
 ---
 
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
